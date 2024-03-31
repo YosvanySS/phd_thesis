@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  background-color: #000;
+}
+
+header {
+  margin-top: 4em;
+  text-align: center;
+  color: white;
+  font-size: 1em;
+}
+
+header h1 {
+  font-size: 3em;
+  font-weight: 900;
+}
+
+.button {
+    padding: 25px 30px;
+    background-color: #050801;
+    position: absolute;
+    left: 20%;
+    color: #03e9f4;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 4px;
+    overflow: hidden;
+    transition: 0.5s;
+    cursor: pointer;
+    min-height:70px; 
+    min-width: 300px;
+  }
+
+.button:hover {
+    background: #03e9f4;
+    color: #050801;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 100px #03e9f4;
+  }
+
+#container3D canvas {
+  width: 100vw !important;
+  height: 100vh !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+<!--
+Fancy button
+-->
+
